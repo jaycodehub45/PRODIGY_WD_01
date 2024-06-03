@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  color: #333;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.8);
+  padding: 10px 0;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#navbar ul li a:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#home {
+  background-image: url('https://wallpapers.com/images/featured/green-nature-tgy6dtxhgtwubez9.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #dccece;
+}
+
+#about, #services, #contact {
+  background-color: #f1f8e9;
+  padding-top: 60px; /* Adjust for fixed navbar */
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+}
